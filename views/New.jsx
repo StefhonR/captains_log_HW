@@ -12,7 +12,7 @@ class New extends React.Component {
         <form action="/logs" method="POST">
           Title: <input type="text"  name="title" /> <br />
           Entry: <input type="textarea" name="entry" /> <br />
-          Is the Ship Broken?<input type="checkbox" name="shipIsBroken" />
+          Is the Ship Broken?<input type="checkbox" name="shipIsBroken" /> 
           <input type="submit" value="Log" />
         </form>
         <nav>
